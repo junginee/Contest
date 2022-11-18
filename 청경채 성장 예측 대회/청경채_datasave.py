@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import glob
 
-path = 'D:\study\_data\\bokckoy/'
+path = 'D:\study\_data\\bokckoy/'       
 
 all_input_list = sorted(glob.glob(path + 'train_input/*.csv'))
 all_target_list = sorted(glob.glob(path + 'train_target/*.csv'))
