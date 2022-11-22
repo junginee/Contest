@@ -11,7 +11,7 @@ from sklearn.model_selection import train_test_split
 from tensorflow.keras.optimizers import Adam
 
 
-# 1. Data
+# 1. Data 
 path = 'D:\study\_data\\bokckoy/'
 
 train_data, label_data, val_data, val_target, test_input, test_target = jb.load(path+'datasets.dat')
